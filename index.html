@@ -3,34 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Odin Project: Landing Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab|Roboto:300,400,500,700" rel="stylesheet" />
 </head>
 <body>
     <div class="header">
-        <p>Header Logo</p>
-        <a href="#" class="nav-link" rel="nofollow noreferrer" target="_blank">header link 1</a>
-        <a href="#" class="nav-link" rel="nofollow noreferrer" target="_blank">header link 2</a>
-        <a href="#" class="nav-link" rel="nofollow noreferrer" target="_blank">header link 3</a>
+        <p class="header-logo">Header Logo</p>
+        <div class="nav-links">
+            <a href="#" rel="nofollow noreferrer" target="_blank">header link one</a>
+            <a href="#" rel="nofollow noreferrer" target="_blank">header link two</a>
+            <a href="#" rel="nofollow noreferrer" target="_blank">header link three</a>
+        </div>
     </div>
 
     <div class="hero">
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-        <a href="#" class="hero-button">Sign up</a>
-        <img src="/images/pexels-pixabay-35888.jpg" alt="Cat on tree branch in front of bright moon" width="400px" height="200px">
+        <div class="hero-content">
+            <h1>This website is awesome</h1>
+            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+            <a href="#" class="hero-button" target="_blank">Sign up</a>
+        </div>
+        <div class="hero-img">
+            <img src="/images/pexels-francesco-ungaro-96428.jpg" alt="Two cats sleeping on red blanket" width="500px" height="250px">
+        </div>
     </div>
     
-    <div class="tile-container">
-        <h2>Some random information.</h2>
-        <img src="" alt="" width="150px" height="150px">
-        <p>Subtext #1</p>
-        <img src="" alt="" width="150px" height="150px">
-        <p>Subtext #2</p>
-        <img src="" alt="" width="150px" height="150px">
-        <p>Subtext #3</p>
-        <img src="" alt="" width="150px" height="150px">
-        <p>Subtext #4</p>
-    </div>
+    
+    <p class="tile-header">Some random information.</p>
+        <div class="tile-container">
+            <div class="tiles">
+                <img src="" alt="" width="150px" height="150px">
+                <p>Subtext #1</p>
+            </div>
+            <div class="tiles">
+                <img src="" alt="" width="150px" height="150px">
+                <p>Subtext #2</p>
+            </div>
+            <div class="tiles">
+                <img src="" alt="" width="150px" height="150px">
+                <p>Subtext #3</p>
+            </div>
+            <div class="tiles">
+                <img src="" alt="" width="150px" height="150px">
+                <p>Subtext #4</p>
+            </div>
+        </div>
 
     <div class="quote-container">
         <p class="quote">This is an inspiring quote, or testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
@@ -38,9 +55,13 @@
     </div>
     
     <div class="cta-container">
-        <p class="cta-header">Call to action! It's time!</p>
-        <p class="cta-desc">Sign up for our product by clicking the button right over there!</p>
-        <a href="#" class="cta-button">Sign up</a>
+        <div class="cta-content">
+            <p class="cta-header">Call to action! It's time!</p>
+            <p class="cta-desc">Sign up for our product by clicking the button right over there!</p>
+        </div>
+        <div class="cta-button">
+            <a href="#" target="_blank">Sign up</a>
+        </div>
     </div>
 
     <div class="footer">
